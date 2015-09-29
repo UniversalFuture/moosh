@@ -1,6 +1,13 @@
 #Moosh v1.0#
 #### A C# framework for productivity, speed and fluency.####
 
+#Install#
+[Nuget](https://www.nuget.org/packages/Moosh/1.0.0)
+
+To install Moosh, run the following command in the Nuget Package Manager Console:
+
+> PM> Install-Package Moosh
+
 #Why?#
 Whilst writing programs, we tend to find ourselves rewriting code to do
 the same tasks, over and over. This code is cumbersome to write, and wastes
