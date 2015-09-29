@@ -1,6 +1,8 @@
 #Moosh v1.0#
 #### A C# framework for productivity, speed and fluency.####
 
+[Overview](http://blog.thosakwe.com/2015/moosh/)
+
 #Install#
 [Nuget](https://www.nuget.org/packages/Moosh/1.0.0)
 
