@@ -1,5 +1,0 @@
-C:\Users\tobe\Source\Repos\moosh\Moosh\Moosh\bin\Debug\Moosh.dll
-C:\Users\tobe\Source\Repos\moosh\Moosh\Moosh\bin\Debug\Moosh.pdb
-C:\Users\tobe\Source\Repos\moosh\Moosh\Moosh\obj\Debug\Moosh.csprojResolveAssemblyReference.cache
-C:\Users\tobe\Source\Repos\moosh\Moosh\Moosh\obj\Debug\Moosh.dll
-C:\Users\tobe\Source\Repos\moosh\Moosh\Moosh\obj\Debug\Moosh.pdb
