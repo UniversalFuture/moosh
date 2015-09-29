@@ -1,0 +1,4 @@
+*.pdb
+Moosh/
+MooshHttpGet/
+MooshTcpServer/

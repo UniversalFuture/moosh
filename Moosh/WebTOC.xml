@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="9eb29dbc-8bc1-4eb4-872b-8565e1c8d856" Title="Moosh" Url="html/c9689a06-94d2-3ec0-bb2c-83c79be052d8.htm">
+    <HelpTOCNode Id="8c711ec5-7a6f-4fb2-b284-187e8809e5fb" Title="Collection(T) Class" Url="html/13306243-0c55-b3a5-faee-92e99b2439b0.htm">
+      <HelpTOCNode Title="Collection(T) Constructor " Url="html/63df2639-534b-d248-8f1a-11852e2a653a.htm" />
+      <HelpTOCNode Title="Collection(T) Properties" Url="html/0a80b1f3-80bc-5c4d-9b8d-9caf28aa9a8a.htm" />
+      <HelpTOCNode Title="Collection(T) Methods" Url="html/024d293d-e5fb-58f4-bf5b-fc304958edc3.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c4cf076f-a6c4-4bba-9ab1-0f165e8b733f" Title="Moosh Class" Url="html/328ba9ca-8887-966d-9cc3-6feaf754260e.htm">
+      <HelpTOCNode Id="b85531ef-8242-428d-98b2-c2b0f8f4b441" Title="Moosh Methods" Url="html/cc7de3d9-37cd-b012-3fe5-e8bbae49ba2a.htm">
+        <HelpTOCNode Id="ef0c8b00-7d74-44ea-8d3b-fcf6b9173404" Title="Async Method " Url="html/b74596c6-94fa-db9b-5d25-da5677b2cb2b.htm">
+          <HelpTOCNode Title="Async Method (Action)" Url="html/63dcb67b-dc08-13dd-f79c-9ae8cd4a6da0.htm" />
+          <HelpTOCNode Title="Async(T) Method (Action(T), T)" Url="html/07da9cfb-278e-e5a7-db01-8df0049cf0b5.htm" />
+          <HelpTOCNode Title="Async Method (Delegate, Object[])" Url="html/a2b103ea-66e6-3c7e-cf68-ccb5f77f47fa.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8f7e69d7-8010-4b93-8396-856dde43d8b9" Title="Csv Method " Url="html/10307061-e6ff-09a3-9199-372a9af092d5.htm">
+          <HelpTOCNode Title="Csv Method (Stream)" Url="html/d9c933c6-28a7-c814-ce32-e4c3a4093c78.htm" />
+          <HelpTOCNode Title="Csv Method (String)" Url="html/e6c096c9-a69d-aa6d-2b54-6c256ffc9158.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c78e0f84-8925-4278-9099-75b612ee1170" Title="Get Method " Url="html/05b721c7-7f40-a2ab-2e95-2c151ebf0d0d.htm">
+          <HelpTOCNode Title="Get Method (String, Action(Exception, StreamReader))" Url="html/bc86b900-65c8-a33d-3928-ca7427c96f81.htm" />
+          <HelpTOCNode Title="Get Method (String, Action(HttpWebRequest), Action(Exception, StreamReader))" Url="html/27b39933-7380-a95c-338b-44c8073eddbc.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="List Method " Url="html/b1d541c1-5175-4a6f-67df-f85ccde2d932.htm" />
+        <HelpTOCNode Id="eed15b28-2389-483f-82cf-b3f14a6bf8ce" Title="Logs Method " Url="html/a764895c-9deb-8e6e-babe-f2d0ebdf7d77.htm">
+          <HelpTOCNode Title="Logs Method (Stream)" Url="html/7480190a-5126-a3de-6a09-fe42a73fd54a.htm" />
+          <HelpTOCNode Title="Logs Method (String, Boolean)" Url="html/1181904a-b52f-536b-208b-2b9e521c2166.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3d61b8b2-35af-4737-9053-694e764eaabb" Title="Post Method " Url="html/85bcf189-7403-38ac-1764-f9bdb93d17e3.htm">
+          <HelpTOCNode Title="Post Method (String, Dictionary(String, Object), Action(Exception, StreamReader))" Url="html/b0277d21-0dac-c4b1-88d0-8e74ded1fcf6.htm" />
+          <HelpTOCNode Title="Post Method (String, Dictionary(String, String), Action(HttpWebRequest), Action(Exception, StreamReader))" Url="html/9c22574b-33b4-7208-1777-63a33242be30.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Prompt Method " Url="html/09198286-e773-2649-f8c2-be3d6d0ffe8b.htm" />
+        <HelpTOCNode Title="PromptN Method " Url="html/be0e8558-8296-3f5b-f694-7c9409b6fec5.htm" />
+        <HelpTOCNode Title="Settings Method " Url="html/a65053ea-df02-094a-c059-0a7ebae84179.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2371f5ef-1d88-4d8b-b93a-03044a58bea9" Title="Moosh Fields" Url="html/f9a413f1-6641-9671-724e-fa5f4a378041.htm">
+        <HelpTOCNode Title="ApartmentState Field" Url="html/b75727eb-487e-f1f6-14e9-b273b3199d18.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="72e30524-0c77-4f9f-8519-e6047fc307e3" Title="Moosh.CsvClass Class" Url="html/2d332d73-59ae-1fbd-6075-788d9568b02b.htm">
+      <HelpTOCNode Title="Moosh.CsvClass Constructor " Url="html/95117c95-f5ef-dcff-242c-9842596475d7.htm" />
+      <HelpTOCNode Title="CsvClass Properties" Url="html/eab5ae5e-1d80-1936-8be7-cd910a5273cc.htm" />
+      <HelpTOCNode Id="25d240cc-0942-4df8-9772-6f75c1b8c408" Title="CsvClass Methods" Url="html/8f3e0267-f429-e456-89b1-8505fe1a70b3.htm">
+        <HelpTOCNode Title="Serialize Method " Url="html/8f88d7f6-f566-534c-ca12-2b510d9e857c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4e93a032-4dfe-4f7a-9f26-373e2c68b596" Title="Moosh.Logger Class" Url="html/df5ddd7e-f404-116d-084e-3c55505a5f6c.htm">
+      <HelpTOCNode Id="a36381c5-e47c-48f4-9aa5-efd7033eb1a9" Title="Logger Constructor " Url="html/ff6d3bc2-7417-ce88-c0ca-4998113955c8.htm">
+        <HelpTOCNode Title="Moosh.Logger Constructor (Stream)" Url="html/260a6724-05a2-b893-3b33-d081760435c8.htm" />
+        <HelpTOCNode Title="Moosh.Logger Constructor (String, Boolean)" Url="html/3f98cb7a-4eeb-15f1-d6fc-e39f9f0bb50a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="179fa05f-262d-4b63-9fa8-fb05152d0f03" Title="Logger Methods" Url="html/3d5fbd29-bdf4-34f2-c0ac-2ee16e2e9e3b.htm">
+        <HelpTOCNode Title="Dispose Method " Url="html/7fe4d17b-6338-19fe-5960-7fe6bd456e15.htm" />
+        <HelpTOCNode Id="8c7942f1-47e5-47b4-9c38-8a23fdb50779" Title="Error Method " Url="html/96cfd902-1ff1-a7b6-8d10-22902a17652f.htm">
+          <HelpTOCNode Title="Error Method (Exception)" Url="html/1e4a7182-46fc-d794-243d-f25df7e8ab4f.htm" />
+          <HelpTOCNode Title="Error Method (String)" Url="html/62b3a30b-209d-726c-da32-8aa35e5a1804.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Log Method " Url="html/e7d736b1-4f08-a135-91e6-48361425be91.htm" />
+        <HelpTOCNode Title="Warning Method " Url="html/2411dc3b-0038-db4a-d841-d8f0f6a80bf8.htm" />
+        <HelpTOCNode Title="Write Method " Url="html/4bbebea9-87bf-40ca-bf05-7326186e3fe4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c65ec6eb-2e63-40cc-9116-df0fa71449aa" Title="Moosh.SettingsClass Class" Url="html/8e024343-4423-acd1-20b3-c8d6909a2087.htm">
+      <HelpTOCNode Title="Moosh.SettingsClass Constructor " Url="html/d9a47932-14f0-838b-927a-42e71df5fdb0.htm" />
+      <HelpTOCNode Id="2eae7099-7194-4875-96fb-75226227834e" Title="SettingsClass Properties" Url="html/59407b40-ad3c-6078-84b8-128325fdc78c.htm">
+        <HelpTOCNode Title="Filename Property " Url="html/b8c3de94-ca08-cc41-aca9-3c186a91a727.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e91a9d2b-a6cc-470e-a7f7-e16485bf9be6" Title="SettingsClass Methods" Url="html/6fac25ca-ff97-ba62-30f6-47108d140b25.htm">
+        <HelpTOCNode Title="Add Method " Url="html/012e1a1f-f855-8254-3958-420220b729e3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fef41895-9a26-40f3-99f7-2de100642375" Title="Moosh.Tcp Class" Url="html/b5b101d4-c125-226f-29f5-8193a97e3b87.htm">
+      <HelpTOCNode Id="6625f76e-2b31-419d-b4bf-91afd946b0f4" Title="Tcp Methods" Url="html/fed6fd86-64cf-9963-fd3b-421df1f20694.htm">
+        <HelpTOCNode Title="Server Method " Url="html/3238c6da-f83a-612e-2a40-1f0d469f49ca.htm" />
+        <HelpTOCNode Title="ServerSync Method " Url="html/5e1bffc6-dc11-fe9d-90af-3ece8f698fe5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
