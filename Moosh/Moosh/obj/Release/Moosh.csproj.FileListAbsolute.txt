@@ -1,0 +1,7 @@
+C:\Users\tobe\Source\Repos\moosh\Moosh\Moosh\obj\Release\Moosh.dll
+C:\Users\tobe\Source\Repos\moosh\Moosh\Moosh\obj\Release\Moosh.pdb
+C:\Users\tobe\Source\Repos\moosh\Moosh\Moosh\Moosh.XML
+C:\Users\tobe\Source\Repos\moosh\Moosh.dll
+C:\Users\tobe\Source\Repos\moosh\Moosh.pdb
+C:\Users\tobe\Source\Repos\moosh\Moosh.XML
+C:\Users\tobe\Source\Repos\moosh\Moosh\Moosh\obj\Release\Moosh.csprojResolveAssemblyReference.cache

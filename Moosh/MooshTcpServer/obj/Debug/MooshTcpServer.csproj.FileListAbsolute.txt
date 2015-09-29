@@ -1,0 +1,8 @@
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshTcpServer\obj\Debug\MooshTcpServer.csprojResolveAssemblyReference.cache
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshTcpServer\bin\Debug\MooshTcpServer.exe.config
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshTcpServer\bin\Debug\MooshTcpServer.exe
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshTcpServer\bin\Debug\MooshTcpServer.pdb
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshTcpServer\bin\Debug\Moosh.dll
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshTcpServer\bin\Debug\Moosh.pdb
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshTcpServer\obj\Debug\MooshTcpServer.exe
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshTcpServer\obj\Debug\MooshTcpServer.pdb

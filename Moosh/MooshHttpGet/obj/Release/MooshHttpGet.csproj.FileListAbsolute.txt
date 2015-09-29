@@ -1,0 +1,9 @@
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshHttpGet\bin\Release\MooshHttpGet.exe.config
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshHttpGet\bin\Release\MooshHttpGet.exe
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshHttpGet\bin\Release\MooshHttpGet.pdb
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshHttpGet\bin\Release\Moosh.dll
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshHttpGet\bin\Release\Moosh.pdb
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshHttpGet\obj\Release\MooshHttpGet.csprojResolveAssemblyReference.cache
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshHttpGet\obj\Release\MooshHttpGet.exe
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshHttpGet\obj\Release\MooshHttpGet.pdb
+C:\Users\tobe\Source\Repos\moosh\Moosh\MooshHttpGet\bin\Release\Moosh.xml

@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Moosh</name>
+    </assembly>
+    <members>
+        <member name="T:Moosh.Moosh">
+            <summary>
+            A magical code class that will change your life forever.
+            </summary>
+        </member>
+        <member name="M:Moosh.Moosh.Async(System.Action)">
+            <summary>
+            Asynchronously runs a function.
+            </summary>
+            <param name="func">The function to be run on a different thread.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Async``1(System.Action{``0},``0)">
+            <summary>
+            Asynchronously runs a function with a single argument.
+            </summary>
+            <param name="func">The function to be run on a different thread.</param>
+            <param name="arg">The argument to run the action on.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Async(System.Delegate,System.Object[])">
+            <summary>
+            Asynchronously runs a function with unlimited arguments.
+            </summary>
+            <param name="func">The function to be run on a different thread.</param>
+            <param name="args">The arguments to run the action on.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Prompt(System.String)">
+            <summary>
+            Prints a string, and awaits the user's response.
+            </summary>
+            <param name="prompt">The string to print. ": " will be appended afterwards.</param>
+            <returns>Console.ReadLine();</returns>
+        </member>
+        <member name="M:Moosh.Moosh.PromptN(System.String)">
+            <summary>
+            Prints a string and a newline, and awaits the user's response.
+            </summary>
+            <param name="prompt">The string to print. ":\n" will be appended afterwards.</param>
+            <returns>Console.ReadLine();</returns>
+        </member>
+        <member name="M:Moosh.Moosh.Csv(System.IO.Stream)">
+            <summary>
+            Parses a CSV string from an input stream.
+            </summary>
+            <param name="stream">A stream containing the CSV string to parse.</param>
+            <returns>Returns a Moosh.CsvClass.</returns>
+        </member>
+        <member name="M:Moosh.Moosh.Csv(System.String)">
+            <summary>
+            Parses a CSV string.
+            </summary>
+            <param name="csv">The CSV string to parse.</param>
+            <returns>Returns a Moosh.CsvClass.</returns>
+        </member>
+        <member name="T:Moosh.Moosh.CsvClass">
+            <summary>
+            A representation of a CSV dictionary.
+            </summary>
+        </member>
+        <member name="M:Moosh.Moosh.CsvClass.Serialize">
+            <summary>
+            Serializes this instance into a CSV string.
+            </summary>
+            <returns>Returns a CSV string.</returns>
+        </member>
+        <member name="M:Moosh.Moosh.Get(System.String,System.Action{System.Exception,System.IO.StreamReader})">
+            <summary>
+            Asynchronously runs an HTTP GET request.
+            </summary>
+            <param name="url">The URL to GET.</param>
+            <param name="callback">A function (Exception, StreamReader) to be called upon completion.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Get(System.String,System.Action{System.Net.HttpWebRequest},System.Action{System.Exception,System.IO.StreamReader})">
+            <summary>
+            Asynchronously runs an HTTP GET request.
+            </summary>
+            <param name="url">The URL to GET.</param>
+            <param name="before">A function to run on the generated request before sending it.</param>
+            <param name="callback">A function (Exception, StreamReader) to be called upon completion.</param>
+        </member>
+        <member name="M:Moosh.Moosh.GetSync(System.String,System.Action{System.Exception,System.IO.StreamReader})">
+            <summary>
+            Synchronously runs an HTTP GET request.
+            </summary>
+            <param name="url">The URL to GET.</param>
+            <param name="callback">A function (Exception, StreamReader) to be called upon completion.</param>
+        </member>
+        <member name="M:Moosh.Moosh.GetSync(System.String,System.Action{System.Net.HttpWebRequest},System.Action{System.Exception,System.IO.StreamReader})">
+            <summary>
+            Synchronously runs an HTTP GET request.
+            </summary>
+            <param name="url">The URL to GET.</param>
+            <param name="before">A function to run on the generated request before sending it.</param>
+            <param name="callback">A function (Exception, StreamReader) to be called upon completion.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Post(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Action{System.Exception,System.IO.StreamReader})">
+            <summary>
+            Asynchronously runs an HTTP POST request.
+            </summary>
+            <param name="url">The URL to POST.</param>
+            <param name="postData">Additional data to include in the request.</param>
+            <param name="callback">A function (Exception, StreamReader) to be called upon completion.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Post(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Action{System.Net.HttpWebRequest},System.Action{System.Exception,System.IO.StreamReader})">
+            <summary>
+            Asynchronously runs an HTTP POST request.
+            </summary>
+            <param name="url">The URL to POST.</param>
+            <param name="postData">Additional data to include in the request.</param>
+            <param name="before">A function to run on the generated request before sending it.</param>
+            <param name="callback">A function (Exception, StreamReader) to be called upon completion.</param>
+        </member>
+        <member name="M:Moosh.Moosh.PostSync(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Action{System.Exception,System.IO.StreamReader})">
+            <summary>
+            Synchronously runs an HTTP POST request.
+            </summary>
+            <param name="url">The URL to POST.</param>
+            <param name="postData">Additional data to include in the request.</param>
+            <param name="callback">A function (Exception, StreamReader) to be called upon completion.</param>
+        </member>
+        <member name="M:Moosh.Moosh.PostSync(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Action{System.Net.HttpWebRequest},System.Action{System.Exception,System.IO.StreamReader})">
+            <summary>
+            Synchronously runs an HTTP POST request.
+            </summary>
+            <param name="url">The URL to POST.</param>
+            <param name="postData">Additional data to include in the request.</param>
+            <param name="before">A function to run on the generated request before sending it.</param>
+            <param name="callback">A function (Exception, StreamReader) to be called upon completion.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Logs(System.IO.Stream)">
+            <summary>
+            Creates a logger, with a designated output stream.
+            </summary>
+            <param name="stream">A stream to log output to.</param>
+            <returns>Returns a new Moosh.Logger instance.</returns>
+        </member>
+        <member name="M:Moosh.Moosh.Logs(System.String,System.Boolean)">
+            <summary>
+            Creates a logger, with a designated output filename.
+            </summary>
+            <param name="filename">An output filename to write to.</param>
+            <param name="append">A boolean value indicating whether to append to an existing file or overwrite it.</param>
+            <returns>Returns a new Moosh.Logger instance.</returns>
+        </member>
+        <member name="T:Moosh.Moosh.Logger">
+            <summary>
+            A class that makes it easy to write a log to a file or stream.
+            </summary>
+        </member>
+        <member name="M:Moosh.Moosh.Logger.#ctor(System.IO.Stream)">
+            <summary>
+            Initializes the logger, with a designated output stream.
+            </summary>
+            <param name="stream">A stream to log output to.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Logger.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initializes the logger, with a designated output filename.
+            </summary>
+            <param name="filename">An output filename to write to.</param>
+            <param name="append">A boolean value indicating whether to append to an existing file or overwrite it.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Logger.Error(System.Exception)">
+            <summary>
+            Logs an error to the output stream.
+            </summary>
+            <param name="error">The error to be reported.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Logger.Error(System.String)">
+            <summary>
+            Logs an error to the output stream.
+            </summary>
+            <param name="error">Details surrounding the error.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Logger.Log(System.String)">
+            <summary>
+            Logs a message to the output stream.
+            </summary>
+            <param name="message">A message to be recorded.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Logger.Warning(System.String)">
+            <summary>
+            Warns of alarming circumstances. Logs to output stream.
+            </summary>
+            <param name="warning">A warning to be printed to the log.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Logger.Write(System.String)">
+            <summary>
+            Logs a message to the output stream. Alias for Log.
+            </summary>
+            <param name="message">A message to be recorded.</param>
+        </member>
+        <member name="F:Moosh.Moosh.ApartmentState">
+            <summary>
+            The default apartment state for asynchronous operations.
+            </summary>
+        </member>
+        <member name="M:Moosh.Moosh.List(System.Collections.Generic.IEnumerable{System.Object})">
+            <summary>
+            Mostly redundant, but initializes a list from any IEnumerable.
+            </summary>
+            <param name="list">The list to initialize with.</param>
+            <returns>Returns a new list.</returns>
+        </member>
+        <member name="F:Moosh.Moosh.Chances">
+            <summary>
+            A globally-accessible System.Random singleton.
+            </summary>
+        </member>
+        <member name="M:Moosh.Moosh.Chance(System.Int32,System.Action,System.Action)">
+            <summary>
+            Randomly decides whether to a perform a given action.
+            </summary>
+            <param name="odds">The odds that the action will be performed. Ex: If odds = 2, there will be a 50% chance of heads().</param>
+            <param name="heads">Code to be executed if Chances.Next(0, odds) == 1.</param>
+            <param name="tails">Code to be executed otherwise.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Chance``1(System.Int32,System.Func{``0},System.Func{``0})">
+            <summary>
+            Randomly decides whether to a perform a given action.
+            </summary>
+            <param name="odds">The odds that the action will be performed. Ex: If odds = 2, there will be a 50% chance of heads().</param>
+            <param name="heads">Code to be executed if Chances.Next(0, odds) == 1.</param>
+            <param name="tails">Code to be executed otherwise.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Settings(System.String)">
+            <summary>
+            Reads or creates a CSV settings file with the desired name.
+            </summary>
+            <param name="name">The desired name for these settings.</param>
+            <returns>Returns a Moosh.SettingsClass instance.</returns>
+        </member>
+        <member name="T:Moosh.Moosh.SettingsClass">
+            <summary>
+            A class that makes it easy to store and update settings in CSV files.
+            </summary>
+        </member>
+        <member name="P:Moosh.Moosh.SettingsClass.Filename">
+            <summary>
+            The file that will store these settings.
+            </summary>
+        </member>
+        <member name="M:Moosh.Moosh.SettingsClass.#ctor(System.String)">
+            <summary>
+            Initializes a Moosh.Settings object from the specified filename.
+            </summary>
+            <param name="fileName">The filename to read and write.</param>
+        </member>
+        <member name="T:Moosh.Moosh.Tcp">
+            <summary>
+            Helper methods to easily use TCP/IP.
+            </summary>
+        </member>
+        <member name="M:Moosh.Moosh.Tcp.Server(System.Net.IPEndPoint,System.Action{System.Net.Sockets.TcpClient})">
+            <summary>
+            Asynchronously listens for, and handles, incoming TCP connections.
+            </summary>
+            <param name="endPoint">A local endpoint to listen on.</param>
+            <param name="onConnect">A callback function to run on every incoming client.</param>
+        </member>
+        <member name="M:Moosh.Moosh.Tcp.ServerSync(System.Net.IPEndPoint,System.Action{System.Net.Sockets.TcpClient})">
+            <summary>
+            Synchronously listens for, and handles, incoming TCP connections.
+            </summary>
+            <param name="endPoint">A local endpoint to listen on.</param>
+            <param name="onConnect">A callback function to run on every incoming client.</param>
+        </member>
+        <member name="T:Moosh.Collection`1">
+            <summary>
+            A collection of objects that can be simultaneously controlled.
+            </summary>
+        </member>
+    </members>
+</doc>
